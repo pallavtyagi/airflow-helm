@@ -22,7 +22,7 @@ airflow:
   ## the secret_key for flask (sets `AIRFLOW__WEBSERVER__SECRET_KEY`)
   ## [FAQ] https://github.com/airflow-helm/charts/blob/main/charts/airflow/docs/faq/security/set-webserver-secret-key.md
   ## [WARNING] change from default value to ensure security
-  webserverSecretKey: "THIS IS UNSAFE!"
+  webserverSecretKey: "7T512UXSSmBOkpWimFHIVb8jK6lfmSAvx4mO6Arehnc="
 
   ## environment variables for airflow configs
   ## [FAQ] https://github.com/airflow-helm/charts/blob/main/charts/airflow/docs/faq/configuration/airflow-configs.md
@@ -36,7 +36,7 @@ airflow:
     - username: admin
       password: admin
       role: Admin
-      email: admin@example.com
+      email: pallav.tyagi@outlook.com
       firstName: admin
       lastName: admin
 

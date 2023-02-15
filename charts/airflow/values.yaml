@@ -34,7 +34,7 @@ airflow:
   ## - [WARNING] you must change this value to ensure the security of your airflow
   ## - set `AIRFLOW__WEBSERVER__SECRET_KEY` with `airflow.extraEnv` from a Secret to avoid storing this in your values
   ##
-  webserverSecretKey: "THIS IS UNSAFE!"
+  webserverSecretKey: "dflkghjsfcdDFHnfseefcaf"
 
   ## environment variables for airflow configs
   ## - airflow env-vars are structured: "AIRFLOW__{config_section}__{config_name}"
@@ -73,7 +73,7 @@ airflow:
     - username: admin
       password: admin
       role: Admin
-      email: admin@example.com
+      email: pallav.tyagi@outlook.com
       firstName: admin
       lastName: admin
 
