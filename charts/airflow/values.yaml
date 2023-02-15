@@ -1856,7 +1856,7 @@ postgresql:
 
     ## the name of the StorageClass used by the PVC
     ##
-    storageClass: ""
+    storageClass: "gp2"
 
     ## the access modes of the PVC
     ##
